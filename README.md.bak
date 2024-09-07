@@ -53,5 +53,8 @@ stand_qry(param1, user_id): Executes SQL queries and sends the results to the Te
 ### Bot Initialization:
 runBot(): Starts the bot's polling loop.
 
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
 ## Contributing
 Feel free to submit issues, feature requests, or pull requests.
