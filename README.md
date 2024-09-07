@@ -11,29 +11,28 @@ Retrieve Job Statuses: Type /jobs to get the status and description of jobs for 
 ### 1. Install Dependencies:
 
 Ensure you have the required Python packages installed. You can use pip to install them:
+```python
+pip install pyodbc psycopg2-binary pyTelegramBotAPI```
 
-`pip install pyodbc psycopg2-binary pyTelegramBotAPI`
-
-### Configuration:
+### 2. Configuration:
 Update the config.py file with your own configuration:
 ```python
 token = 'YOUR_TELEGRAM_BOT_TOKEN'
 telegram_user_id_list = [YOUR_USER_ID_LIST]  # List of allowed user IDs
 Replace placeholders with your actual values:
-
+```
 YOUR_TELEGRAM_BOT_TOKEN: Your Telegram bot token from BotFather.
 YOUR_USER_ID_LIST: A list of Telegram user IDs who are allowed to access the bot.
 
-### Database Configuration:
+### 3. Database Configuration:
 Modify the server, database, username, and password variables to match your PostgreSQL database settings.
 
-### Running the Bot:
+### 4. Running the Bot:
 To start the bot, run the following command:
 
-bash
-Copy code
+```python
 python your_script_name.py
-The bot will start polling for messages and respond to the commands.
+The bot will start polling for messages and respond to the commands.```
 
 # Code Overview
 
