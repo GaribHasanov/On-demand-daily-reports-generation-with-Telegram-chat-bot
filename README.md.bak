@@ -20,8 +20,8 @@ Update the config.py file with your own configuration:
 token = 'YOUR_TELEGRAM_BOT_TOKEN'
 telegram_user_id_list = [YOUR_USER_ID_LIST]  # List of allowed user IDs
 Replace placeholders with your actual values:
-```
-YOUR_TELEGRAM_BOT_TOKEN: Your Telegram bot token from BotFather.
+
+```YOUR_TELEGRAM_BOT_TOKEN: Your Telegram bot token from BotFather.
 YOUR_USER_ID_LIST: A list of Telegram user IDs who are allowed to access the bot.
 
 ### 3. Database Configuration:
