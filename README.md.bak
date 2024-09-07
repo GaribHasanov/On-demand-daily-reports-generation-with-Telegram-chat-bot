@@ -16,10 +16,11 @@ Ensure you have the required Python packages installed. You can use pip to insta
 
 ### 2. Configuration:
 Update the config.py file with your own configuration:
-```	
-token = 'YOUR_TELEGRAM_BOT_TOKEN'
-telegram_user_id_list = [YOUR_USER_ID_LIST]  # List of allowed user IDs
-Replace placeholders with your actual values:```
+
+```python token = 'YOUR_TELEGRAM_BOT_TOKEN'```
+```python telegram_user_id_list = [YOUR_USER_ID_LIST]  # List of allowed user IDs```
+
+Replace placeholders with your actual values:
 
 YOUR_TELEGRAM_BOT_TOKEN: Your Telegram bot token from BotFather.
 YOUR_USER_ID_LIST: A list of Telegram user IDs who are allowed to access the bot.
@@ -30,8 +31,7 @@ Modify the server, database, username, and password variables to match your Post
 ### 4. Running the Bot:
 To start the bot, run the following command:
 
-`python
-python your_script_name.py
+```python python your_script_name.py```
 The bot will start polling for messages and respond to the commands.`
 
 # Code Overview
@@ -41,8 +41,8 @@ pyodbc and psycopg2 for database connections.
 config for configuration settings.
 TeleBot from pyTelegramBotAPI for Telegram bot interactions.
 threading for running the bot in a separate thread.
-### Command Handlers:
 
+### Command Handlers:
 /loan: Retrieves and sends loan information.
 /repayment: Retrieves and sends repayment information.
 /jobs: Retrieves and sends job statuses.
