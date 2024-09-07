@@ -16,7 +16,7 @@ Ensure you have the required Python packages installed. You can use pip to insta
 
 ### Configuration:
 Update the config.py file with your own configuration:
-```
+```python
 token = 'YOUR_TELEGRAM_BOT_TOKEN'
 telegram_user_id_list = [YOUR_USER_ID_LIST]  # List of allowed user IDs```
 Replace placeholders with your actual values:
