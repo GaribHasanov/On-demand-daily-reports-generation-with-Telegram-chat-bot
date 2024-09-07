@@ -30,9 +30,9 @@ Modify the server, database, username, and password variables to match your Post
 ### 4. Running the Bot:
 To start the bot, run the following command:
 
-```python
+`python
 python your_script_name.py
-The bot will start polling for messages and respond to the commands.```
+The bot will start polling for messages and respond to the commands.`
 
 # Code Overview
 
