@@ -14,7 +14,7 @@ Ensure you have the required Python packages installed. You can use pip to insta
 
 bash
 Copy code
-pip install pyodbc psycopg2-binary pyTelegramBotAPI
+`pip install pyodbc psycopg2-binary pyTelegramBotAPI`
 
 ### Configuration:
 Update the config.py file with your own configuration:
