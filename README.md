@@ -12,7 +12,8 @@ Retrieve Job Statuses: Type /jobs to get the status and description of jobs for 
 
 Ensure you have the required Python packages installed. You can use pip to install them:
 
-```python pip install pyodbc psycopg2-binary pyTelegramBotAPI```
+```python 
+pip install pyodbc psycopg2-binary pyTelegramBotAPI```
 
 ### 2. Configuration:
 Update the config.py file with your own configuration:
