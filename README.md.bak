@@ -27,7 +27,7 @@ YOUR_USER_ID_LIST: A list of Telegram user IDs who are allowed to access the bot
 ### 3. Database Configuration:
 Modify the server, database, username, and password variables to match your PostgreSQL database settings.
 
-### Running the Bot:
+### 4. Running the Bot:
 To start the bot, run the following command:
 
 ```python
