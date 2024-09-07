@@ -12,17 +12,13 @@ Retrieve Job Statuses: Type /jobs to get the status and description of jobs for 
 
 Ensure you have the required Python packages installed. You can use pip to install them:
 
-bash
-Copy code
 `pip install pyodbc psycopg2-binary pyTelegramBotAPI`
 
 ### Configuration:
 Update the config.py file with your own configuration:
-
-python
-Copy code
+```
 token = 'YOUR_TELEGRAM_BOT_TOKEN'
-telegram_user_id_list = [YOUR_USER_ID_LIST]  # List of allowed user IDs
+telegram_user_id_list = [YOUR_USER_ID_LIST]  # List of allowed user IDs```
 Replace placeholders with your actual values:
 
 YOUR_TELEGRAM_BOT_TOKEN: Your Telegram bot token from BotFather.
